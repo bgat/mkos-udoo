@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e -u
+
+DEFAULT_CONFIG=/usr/share/mkos-udoo/default.mstrap
+DEFAULT_DEVICE=device-udoo
+DEFAULT_IMAGE=ptux.img
+DEFAULT_ROOTFSTYPE=ext3
+
+mkos-mlo-common -c $DEFAULT_CONFIG -p $DEFAULT_DEVICE -f $DEFAULT_ROOTFSTYPE -n $DEFAULT_IMAGE $@

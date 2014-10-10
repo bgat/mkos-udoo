@@ -1,0 +1,2 @@
+mkos-udoo usr/bin
+default.mstrap preferences usr/share/mkos-udoo
