@@ -5,7 +5,7 @@ unpack=true
 cleanup=true
 omitrequired=true
 markauto=true
-bootstrap=ptux emdebian debian
+bootstrap=ptux wheezy
 aptsources=
 aptpreferences=/usr/share/mkos-udoo/preferences
 
@@ -15,10 +15,6 @@ suite=3.0
 components=main
 packages={{device-package}}
 
-[emdebian]
-source=http://emdebian.org/grip
-suite=wheezy-grip
-
-[debian]
-source=http://cdn.debian.net/debian
+[wheezy]
+source=http://ftp.us.debian.org/debian
 suite=wheezy
