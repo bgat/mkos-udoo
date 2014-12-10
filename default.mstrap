@@ -18,3 +18,4 @@ packages={{device-package}}
 [wheezy]
 source=http://ftp.us.debian.org/debian
 suite=wheezy
+components=main contrib non-free
